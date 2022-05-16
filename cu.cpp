@@ -31,7 +31,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-	duvar d;
+	duvar d;//burada hata veriyor çünkü boş constuctor yok. Ama onu da tanımladığımda hata veriyor. Bunun sebebi nedir bilen var mı?
 	duvar d1(35);
 	d1.yazdir();
 	return 0;
